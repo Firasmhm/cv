@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(to right, rgb(9, 214, 214), rgb(252, 252, 252));
+    font-family:  Georgia, serif;
+}
+header{
+    background: linear-gradient(to left, rgb(9, 214, 214), rgb(252, 252, 252));
+    border: 3px solid  grey;
+    margin: 5px;
+}
+section{
+    border: thick double #4c32ce;
+    margin: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .pagination li {
+    margin: 0 1px;
+  }
+#bor{
+    border: solid black;
+    margin: 1px;
+    color: black;
+}
+#bord{
+    color: grey;
+    border:  2px solid rgb(124, 124, 124);
+    margin: 1px;
+}
+a:hover{
+    color: red;
+}
+.language .percent{
+    position: relative;
+    width: 50%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #4c32ce;
+}
+h5,h4{
+    color: rgb(95, 6, 95);
+}
+button{
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#black{
+    color: black;
+}
